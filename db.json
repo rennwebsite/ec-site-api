@@ -1,0 +1,396 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Coffee"
+    },
+    {
+      "id": "2",
+      "name": "Frappe"
+    },
+    {
+      "id": "3",
+      "name": "Non-Coffee"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Espresso",
+      "price": 15000,
+      "is-ready": true,
+      "code": "cf-01",
+      "image": "cf-01.jpg",
+      "category": {
+        "id": 1,
+        "name": "Coffee"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Americano",
+      "price": 18000,
+      "is-ready": true,
+      "code": "cf-02",
+      "image": "cf-02.jpg",
+      "category": {
+        "id": 1,
+        "name": "Coffee"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Cappuccino",
+      "price": 20000,
+      "is-ready": true,
+      "code": "cf-03",
+      "image": "cf-03.jpg",
+      "category": {
+        "id": 1,
+        "name": "Coffee"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Mocha",
+      "price": 22000,
+      "is-ready": true,
+      "code": "cf-04",
+      "image": "cf-04.jpg",
+      "category": {
+        "id": 1,
+        "name": "Coffee"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Cafe Latte",
+      "price": 21000,
+      "is-ready": true,
+      "code": "cf-05",
+      "image": "cf-05.jpg",
+      "category": {
+        "id": 1,
+        "name": "Coffee"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Caramel Macchiato",
+      "price": 25000,
+      "is-ready": true,
+      "code": "cf-06",
+      "image": "cf-06.jpg",
+      "category": {
+        "id": 1,
+        "name": "Coffee"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Thai Tea Frappe",
+      "price": 20000,
+      "is-ready": true,
+      "code": "fp-01",
+      "image": "fp-01.jpg",
+      "category": {
+        "id": 2,
+        "name": "Frappe"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Vanilla Frappe",
+      "price": 22000,
+      "is-ready": true,
+      "code": "fp-02",
+      "image": "fp-02.jpg",
+      "category": {
+        "id": 2,
+        "name": "Frappe"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Chocolate",
+      "price": 18000,
+      "is-ready": true,
+      "code": "ncf-01",
+      "image": "ncf-01.jpg",
+      "category": {
+        "id": 3,
+        "name": "Non-Coffee"
+      }
+    },
+    {
+      "id": "10",
+      "name": "Hot Tea",
+      "price": 10000,
+      "is-ready": true,
+      "code": "ncf-02",
+      "image": "ncf-02.jpg",
+      "category": {
+        "id": 3,
+        "name": "Non-Coffee"
+      }
+    },
+    {
+      "id": "11",
+      "name": "Lemon Tea",
+      "price": 12000,
+      "is-ready": true,
+      "code": "ncf-03",
+      "image": "ncf-03.jpg",
+      "category": {
+        "id": 3,
+        "name": "Non-Coffee"
+      }
+    },
+    {
+      "id": "12",
+      "name": "Orange Juice",
+      "price": 15000,
+      "is-ready": true,
+      "code": "ncf-04",
+      "image": "ncf-04.jpg",
+      "category": {
+        "id": 3,
+        "name": "Non-Coffee"
+      }
+    }
+  ],
+  "newproducts": [
+    {
+      "id": "1",
+      "name": "caramel",
+      "code": "ncf-01",
+      "price": "15000",
+      "image": "https://renn.vercel.app"
+    }
+  ],
+  "carts": [],
+  "orders": [
+    {
+      "id": "mLW2NMmmuF",
+      "name": "yoga",
+      "phone": "081578960696",
+      "address": "jl Pancasila ",
+      "description": "",
+      "menus": [
+        {
+          "id": "cart-1",
+          "ttlprice": 30000,
+          "quantity": 2,
+          "product": {
+            "id": "1",
+            "name": "Espresso",
+            "price": 15000,
+            "is-ready": true,
+            "code": "cf-01",
+            "image": "cf-01.jpg",
+            "category": {
+              "id": 1,
+              "name": "Coffee"
+            }
+          }
+        },
+        {
+          "id": "cart-3",
+          "ttlprice": 20000,
+          "quantity": 1,
+          "product": {
+            "id": "3",
+            "name": "Cappuccino",
+            "price": 20000,
+            "is-ready": true,
+            "code": "cf-03",
+            "image": "cf-03.jpg",
+            "category": {
+              "id": 1,
+              "name": "Coffee"
+            }
+          }
+        }
+      ],
+      "date": "2024-12-26",
+      "status": "pending"
+    },
+    {
+      "id": "rZNustTjdQ",
+      "name": "Marco",
+      "phone": "081578960696",
+      "address": "cibukan Sumberadi mlati sleman ",
+      "description": "less sugar ",
+      "menus": [
+        {
+          "id": "cart-12",
+          "ttlprice": 15000,
+          "quantity": 1,
+          "product": {
+            "id": "12",
+            "name": "Orange Juice",
+            "price": 15000,
+            "is-ready": true,
+            "code": "ncf-04",
+            "image": "ncf-04.jpg",
+            "category": {
+              "id": 3,
+              "name": "Non-Coffee"
+            }
+          }
+        },
+        {
+          "id": "cart-1",
+          "ttlprice": 15000,
+          "quantity": 1,
+          "product": {
+            "id": "1",
+            "name": "Espresso",
+            "price": 15000,
+            "is-ready": true,
+            "code": "cf-01",
+            "image": "cf-01.jpg",
+            "category": {
+              "id": 1,
+              "name": "Coffee"
+            }
+          }
+        },
+        {
+          "id": "cart-3",
+          "ttlprice": 20000,
+          "quantity": 1,
+          "product": {
+            "id": "3",
+            "name": "Cappuccino",
+            "price": 20000,
+            "is-ready": true,
+            "code": "cf-03",
+            "image": "cf-03.jpg",
+            "category": {
+              "id": 1,
+              "name": "Coffee"
+            }
+          }
+        }
+      ],
+      "total_price": 50000,
+      "date": "2024-12-26",
+      "status": "pending"
+    },
+    {
+      "id": "uG4fTHFV9j",
+      "name": "renn",
+      "phone": "08888888888",
+      "address": "jl manggis ",
+      "description": "orange juice less sugar",
+      "menus": [
+        {
+          "id": "cart-11",
+          "ttlprice": 24000,
+          "quantity": 2,
+          "product": {
+            "id": "11",
+            "name": "Lemon Tea",
+            "price": 12000,
+            "is-ready": true,
+            "code": "ncf-03",
+            "image": "ncf-03.jpg",
+            "category": {
+              "id": 3,
+              "name": "Non-Coffee"
+            }
+          }
+        },
+        {
+          "id": "cart-12",
+          "ttlprice": 15000,
+          "quantity": 1,
+          "product": {
+            "id": "12",
+            "name": "Orange Juice",
+            "price": 15000,
+            "is-ready": true,
+            "code": "ncf-04",
+            "image": "ncf-04.jpg",
+            "category": {
+              "id": 3,
+              "name": "Non-Coffee"
+            }
+          }
+        },
+        {
+          "id": "cart-9",
+          "ttlprice": 18000,
+          "quantity": 1,
+          "product": {
+            "id": "9",
+            "name": "Chocolate",
+            "price": 18000,
+            "is-ready": true,
+            "code": "ncf-01",
+            "image": "ncf-01.jpg",
+            "category": {
+              "id": 3,
+              "name": "Non-Coffee"
+            }
+          }
+        },
+        {
+          "id": "cart-1",
+          "ttlprice": 15000,
+          "quantity": 1,
+          "product": {
+            "id": "1",
+            "name": "Espresso",
+            "price": 15000,
+            "is-ready": true,
+            "code": "cf-01",
+            "image": "cf-01.jpg",
+            "category": {
+              "id": 1,
+              "name": "Coffee"
+            }
+          }
+        }
+      ],
+      "total_price": 72000,
+      "date": "2024-12-26",
+      "status": "done"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "email": "jagad.renata@example.com",
+      "password": "admin123",
+      "role": "admin",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "username": "demo",
+      "email": "demo@renn.com",
+      "password": "demo123",
+      "role": "demo",
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "username": "user",
+      "email": "jhon.de@gmail.com",
+      "password": "user123",
+      "role": "user",
+      "status": "active"
+    },
+    {
+      "id": "4",
+      "username": "marlus geo",
+      "email": "marlus.geo@gmail.com",
+      "password": "marlus",
+      "role": "affiliate",
+      "status": "active"
+    }
+  ]
+}
